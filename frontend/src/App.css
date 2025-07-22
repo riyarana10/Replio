@@ -1,0 +1,40 @@
+/* src/App.css */
+
+.appContainer {
+  /* --- RESPONSIVE WIDTH LOGIC --- */
+
+  /* 1. Set a relative width. It will try to be 90% of its parent's width. */
+  width: 50rem;
+
+  /* Adding a background, padding, and rounded corners to create the "card" effect */
+  background-color: #ffffff;
+  padding: 25px; /* A little more padding */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* A soft shadow for depth */
+}
+
+.appHeader h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #343a40;
+  margin-top: 0;
+  margin-bottom: 25px; /* Add space below the header */
+}
+
+.generateBtn {
+  width: 100%;
+  padding: 12px;
+  background-color: #6f42c1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 25px 0 0 0; /* Adjusted margin to be only on top */
+  transition: background-color 0.2s;
+}
+
+.generateBtn:hover {
+  background-color: #5a379b;
+}

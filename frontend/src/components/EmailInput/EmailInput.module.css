@@ -1,0 +1,48 @@
+.inputSection {
+  margin-bottom: 25px;
+}
+
+.title {
+  font-size: 1rem;
+  color: #495057;
+  margin-bottom: 10px;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  resize: vertical;
+  box-sizing: border-box; /* Important for padding and border */
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: #6f42c1;
+  box-shadow: 0 0 0 2px rgba(111, 66, 193, 0.25);
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-top: 8px;
+}
+
+.clearBtn {
+  background: none;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.clearBtn:hover {
+  background-color: #f1f3f5;
+}

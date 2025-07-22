@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Email Genie",
+  "version": "1.0",
+  "description": "Draft email responses with different tones.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo192.png",
+    "128": "logo192.png"
+  }
+}

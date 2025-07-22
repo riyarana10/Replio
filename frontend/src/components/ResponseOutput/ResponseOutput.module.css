@@ -1,0 +1,45 @@
+.outputSection {
+  margin-top: 20px;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  resize: vertical;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+}
+
+.textarea:focus {
+  outline: none;
+}
+
+.copyContainer {
+  display: flex;
+  justify-content: flex-end; /* Aligns button to the right */
+  margin-top: 10px;
+}
+
+.copyBtn {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.copyBtn:hover:not(:disabled) {
+  background-color: #e9ecef;
+}
+
+.copyBtn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
